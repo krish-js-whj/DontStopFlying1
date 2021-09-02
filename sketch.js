@@ -9,7 +9,7 @@ function setup() {
   canvas=createCanvas(800,400);
   birdy=createSprite(730, 200, 50, 50);
    birdy.scale=0.5;
-  birdy.debug=true;
+  //birdy.debug=true;
   birdy.setCollider("circle",0,0,90);
   birdy.addImage(birdy2Img);
   birdy.addImage(birdyImg);
@@ -23,7 +23,7 @@ function setup() {
   //obstacle3.addImage(wall);
   obstacle4=createSprite(295,20,185,306);
   //obstacle4.addImage(wall);
-  obstacle1.debug=true
+  //obstacle1.debug=true
   edges=createEdgeSprites();
   lvl1()
 gameState=1;
